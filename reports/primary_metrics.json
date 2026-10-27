@@ -1,0 +1,30 @@
+{
+  "target": "future_spend capped at training-set 99th percentile",
+  "cap_quantile": 0.99,
+  "training_cap": 9971.231600000001,
+  "random_state": 42,
+  "train_rows": 3972,
+  "test_rows": 994,
+  "features": [
+    "recency_days",
+    "tenure_days",
+    "frequency",
+    "monetary_total",
+    "monetary_avg",
+    "monetary_std",
+    "avg_qty",
+    "product_diversity",
+    "active_months",
+    "is_uk"
+  ],
+  "linear_regression": {
+    "R2": 0.4608261738077346,
+    "MAE": 515.0203286595187,
+    "RMSE": 1019.6039975391727
+  },
+  "xgboost": {
+    "R2": 0.5732970342658601,
+    "MAE": 461.5403243110784,
+    "RMSE": 907.0473512707554
+  }
+}

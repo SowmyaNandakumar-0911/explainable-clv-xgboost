@@ -1,0 +1,24 @@
+{
+  "note": "Secondary analyses only; do not substitute for primary regression metrics.",
+  "will_spend_again": {
+    "accuracy": 0.7394366197183099,
+    "F1": 0.7422885572139304,
+    "precision": 0.7612244897959184,
+    "recall": 0.7242718446601941,
+    "AUC": 0.8084439670024526
+  },
+  "top_20_percent_value_identification": {
+    "training_threshold": 951.456,
+    "accuracy": 0.8631790744466801,
+    "F1": 0.5952380952380952,
+    "precision": 0.6369426751592356,
+    "recall": 0.5586592178770949
+  },
+  "top_10_percent_value_identification": {
+    "training_threshold": 1788.014,
+    "accuracy": 0.9356136820925554,
+    "F1": 0.627906976744186,
+    "precision": 0.6835443037974683,
+    "recall": 0.5806451612903226
+  }
+}

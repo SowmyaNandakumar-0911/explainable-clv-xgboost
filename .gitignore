@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+
+# Raw and intermediate datasets
+data/raw/*
+!data/raw/.gitkeep
+data/processed/clean_transactions.csv
+data/processed/modeling_table.csv
+data/processed/train_data.csv
+data/processed/test_data.csv
+
+# Keep trained models and reports
